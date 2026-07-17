@@ -1,16 +1,57 @@
-# React + Vite
+# Employee Dashboard - AG Grid
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive employee management dashboard built with React and AG Grid.  
+The dashboard provides an efficient way to explore, filter, sort, and manage employee records using client-side rendering.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Interactive employee dashboard
+- AG Grid client-side data rendering
+- Sorting and filtering
+- Floating filters
+- Global search functionality
+- Pagination support
+- Multiple row selection
+- Responsive UI design
+- Custom status badges (Active/Inactive)
+- Salary formatting
+- Dashboard summary cards
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- AG Grid Community
+- Tailwind CSS
+- React Router
+- Lucide React Icons
 
-## Expanding the ESLint configuration
+## 📊 Dashboard Includes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Total Employees count
+- Active Employees count
+- Department overview
+- Average salary calculation
+- Employee data table
+
+## 📋 Table Features
+
+The employee table supports:
+
+- Employee ID
+- First Name
+- Last Name
+- Department
+- Position
+- Salary
+- Status
+
+Additional employee data is structured for scalability.
+
+## ⚡ Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/mukeshh24/factwise-employee-dashboard.git
+```
